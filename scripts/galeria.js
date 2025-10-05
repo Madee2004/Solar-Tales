@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const close = document.getElementById("closeBook");
   const bookTitle = document.getElementById("bookTitle");
 
-  const totalPages = 14;
+  const totalPages = 9;
   let currentPage = 1;
 
   // Imagen genérica por capítulo
@@ -117,3 +117,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
   keepTextUpright();
 });
+
